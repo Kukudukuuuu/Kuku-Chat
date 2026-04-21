@@ -1,4 +1,4 @@
-# Simple Messaging System
+# Kuku Chat
 
 A terminal-based social messaging application with user authentication, private messages, and group chats. Built with Python and MongoDB.
 
