@@ -8,9 +8,9 @@ from bson import ObjectId
 
 # Connection to MongoDB
 cluster = MongoClient("")
-db_messages = cluster["socialmedia"]["bandar"]
-db_users = cluster["socialmedia"]["users"]
-db_groups = cluster["socialmedia"]["groups"]
+db_messages = cluster[""][""]
+db_users = cluster[""]["users"]
+db_groups = cluster[""]["groups"]
 
 # Global variable to store current user
 current_user = None
@@ -759,7 +759,7 @@ def auth_menu():
 
 def main_menu():
     """Main menu for authenticated users"""
-    print(colored(f"\n📱 Welcome to Simple Messaging System", 'blue', attrs=['bold']))
+    print(colored(f"\n Kuku Chat", 'blue', attrs=['bold']))
     print(colored(f"Logged in as: {current_user['full_name']}", 'green'))
     
     while True:
@@ -792,7 +792,7 @@ def main_menu():
 
 def main():
     """Main function to run the messaging system"""
-    print(colored("📱 Simple Messaging System with Group Chats", 'blue', attrs=['bold']))
+    print(colored(" Kuku Messaging Group Chats", 'blue', attrs=['bold']))
     print(colored("Private messages and group conversations for authenticated users", 'cyan'))
     
     try:
@@ -806,7 +806,7 @@ def main():
                 if not main_menu():
                     break
                     
-        print(colored("\nThank you for using Simple Messaging System! 👋", 'green'))
+        print(colored("\nThank you for using  Kuku Chat! 👋", 'green'))
         
     except KeyboardInterrupt:
         print(colored("\n\nGoodbye! 👋", 'yellow'))
