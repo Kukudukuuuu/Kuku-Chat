@@ -1,9 +1,3 @@
-"""
-Kuku Chat — terminal messaging app
-Deps: pymongo bcrypt python-dotenv termcolor
-  pip install pymongo bcrypt python-dotenv termcolor
-"""
-
 import hashlib
 import getpass
 import os
